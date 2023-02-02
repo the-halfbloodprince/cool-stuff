@@ -1,0 +1,13 @@
+.revealingText {
+    text-transform: uppercase;
+    font-size: 10rem;
+    color: #222;
+}
+
+.inactive {
+    pointer-events: none;
+}
+
+.revealingText .done {
+    color: white;
+}

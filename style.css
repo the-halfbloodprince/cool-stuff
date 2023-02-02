@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Unbounded:wght@200;300;400;500&display=swap');
+
+:root {
+  --bgClrDark: #000;
+  --textClrDark: #fff;
+  /* --fontFam: 'Unbounded'; */
+  --fontFam: 'Space Mono';
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--bgClrDark);
+  color: var(--textClrDark);
+  font-family: var(--fontFam);
+
+  /* padding: 4rem 3rem; */
+  text-align: center;
+}
+
+.cool {
+  color: #6a26cd;
+  transition: all .5s ease;
+}
+
+.cool:hover {
+  text-shadow: 5px 5px yellow;
+  /* transform: translate(10vw, 10vw); */
+}
+
+header {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-weight: 300;
+}
+
+/* .item {
+  border: 2px solid white;
+  padding: 1rem 1rem;
+} */
+
+.item {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.item .title {
+  font-size: 2rem;
+  color: #999;
+}
